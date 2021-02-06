@@ -33,13 +33,14 @@ The code is developed using python 3.8 and PyTorch 1.6.0 on Ubuntu 18.04. NVIDIA
    ├── result
    └── source
    ```
-4. Download dlib landmark detection model from here
+4. Download dlib landmark detection model from [here](https://pan.baidu.com/s/1XiLL4S7Q23Tzpic09eWOIw) (passward:q8uc) and download pre-trained VGG from [here](https://download.pytorch.org/models/vgg19-dcbb9e9d.pth)
    ```
    ${ROOT}
     `-- data
-        `-- data
+        |-- data
             |-- reflect_66.mat
             |-- shape_predictor_68_face_landmarks.dat
+		`-- vgg19-dcbb9e9d.pth
    ```
    
 ### Data preparation
