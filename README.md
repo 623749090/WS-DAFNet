@@ -37,10 +37,10 @@ The code is developed using python 3.8 and PyTorch 1.6.0 on Ubuntu 18.04. NVIDIA
    ```
    ${ROOT}
     `-- data
-        |-- data
+    	|-- vgg19-dcbb9e9d.pth
+        `-- data
             |-- reflect_66.mat
             |-- shape_predictor_68_face_landmarks.dat
-	`-- vgg19-dcbb9e9d.pth
    ```
    
 ### Data preparation
